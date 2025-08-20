@@ -1,29 +1,24 @@
-#  Feedback System
+- Feedback System — Backend (MERN)
 
-A web-based **Feedback System** for collecting, managing, and analyzing user feedback.  
-Built with **JavaScript**, this project enables organizations and developers to easily gather responses in a streamlined, user-friendly way.
+A production-ready **backend API** built using **Node.js, Express, and MongoDB**, designed to power the Feedback System application.  
+This service provides RESTful endpoints to submit and retrieve user feedback securely and efficiently.
 
-## Backed  Live Demo
+ Features
 
-Experience the application at:  
-[feedback-system-wheat.vercel.app](https://feedback-system-wheat.vercel.app)
+- Submit Feedback – Users can post feedback with name & message  
+- Retrieve Feedback – Fetch all feedback entries with timestamps  
+- MongoDB Integration – Persistent storage with Mongoose ODM  
+- CORS Enabled – Ready for frontend integration  
+- Error Handling – Proper status codes & validation  
+- Scalable Structure – Controllers, routes, models separation  
 
----
+- Tech Stack
 
-## Technologies Used
+- Runtime: [Node.js](https://nodejs.org/)  
+- Framework: [Express.js](https://expressjs.com/)  
+- Database: [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)  
+- Utilities: dotenv (env config), nodemon (dev server), CORS  
 
-- **JavaScript Node.js,Express.js,MongoDB**
-- Modern Mearn stack Backend Project (Express.js,MongoDB,Node.js.....)
 
-## Features
+## 📂 Project Structure
 
-- feedback submission Appication Backend
-- Stores feedback securely
-- submitting and viewing feedback
-- We can Extend It To Fullstack project
-- Can be deployed easily on services like Vercel
----
-
-##  Getting Started
-
-**Clone the repository**
